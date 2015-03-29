@@ -14092,6 +14092,361 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="stm32f051">
+<packages>
+<package name="TQFP48">
+<wire x1="-3.375" y1="3.1" x2="-3.1" y2="3.375" width="0.254" layer="21"/>
+<wire x1="-3.1" y1="3.375" x2="3.1" y2="3.375" width="0.254" layer="21"/>
+<wire x1="3.1" y1="3.375" x2="3.375" y2="3.1" width="0.254" layer="21"/>
+<wire x1="3.375" y1="3.1" x2="3.375" y2="-3.1" width="0.254" layer="21"/>
+<wire x1="3.375" y1="-3.1" x2="3.1" y2="-3.375" width="0.254" layer="21"/>
+<wire x1="3.1" y1="-3.375" x2="-3.1" y2="-3.375" width="0.254" layer="21"/>
+<wire x1="-3.1" y1="-3.375" x2="-3.375" y2="-3.1" width="0.254" layer="21"/>
+<wire x1="-3.375" y1="-3.1" x2="-3.375" y2="3.1" width="0.254" layer="21"/>
+<circle x="-2" y="-2" radius="0.6" width="0.254" layer="21"/>
+<smd name="1" x="-2.75" y="-4.5" dx="0.2" dy="1" layer="1"/>
+<smd name="2" x="-2.25" y="-4.5" dx="0.2" dy="1" layer="1"/>
+<smd name="3" x="-1.75" y="-4.5" dx="0.2" dy="1" layer="1"/>
+<smd name="4" x="-1.25" y="-4.5" dx="0.2" dy="1" layer="1"/>
+<smd name="5" x="-0.75" y="-4.5" dx="0.2" dy="1" layer="1"/>
+<smd name="6" x="-0.25" y="-4.5" dx="0.2" dy="1" layer="1"/>
+<smd name="7" x="0.25" y="-4.5" dx="0.2" dy="1" layer="1"/>
+<smd name="8" x="0.75" y="-4.5" dx="0.2" dy="1" layer="1"/>
+<smd name="9" x="1.25" y="-4.5" dx="0.2" dy="1" layer="1"/>
+<smd name="10" x="1.75" y="-4.5" dx="0.2" dy="1" layer="1"/>
+<smd name="11" x="2.25" y="-4.5" dx="0.2" dy="1" layer="1"/>
+<smd name="12" x="2.75" y="-4.5" dx="0.2" dy="1" layer="1"/>
+<smd name="13" x="4.5" y="-2.75" dx="1" dy="0.2" layer="1"/>
+<smd name="14" x="4.5" y="-2.25" dx="1" dy="0.2" layer="1"/>
+<smd name="15" x="4.5" y="-1.75" dx="1" dy="0.2" layer="1"/>
+<smd name="16" x="4.5" y="-1.25" dx="1" dy="0.2" layer="1"/>
+<smd name="17" x="4.5" y="-0.75" dx="1" dy="0.2" layer="1"/>
+<smd name="18" x="4.5" y="-0.25" dx="1" dy="0.2" layer="1"/>
+<smd name="19" x="4.5" y="0.25" dx="1" dy="0.2" layer="1"/>
+<smd name="20" x="4.5" y="0.75" dx="1" dy="0.2" layer="1"/>
+<smd name="21" x="4.5" y="1.25" dx="1" dy="0.2" layer="1"/>
+<smd name="22" x="4.5" y="1.75" dx="1" dy="0.2" layer="1"/>
+<smd name="23" x="4.5" y="2.25" dx="1" dy="0.2" layer="1"/>
+<smd name="24" x="4.5" y="2.75" dx="1" dy="0.2" layer="1"/>
+<smd name="25" x="2.75" y="4.5" dx="0.2" dy="1" layer="1"/>
+<smd name="26" x="2.25" y="4.5" dx="0.2" dy="1" layer="1"/>
+<smd name="27" x="1.75" y="4.5" dx="0.2" dy="1" layer="1"/>
+<smd name="28" x="1.25" y="4.5" dx="0.2" dy="1" layer="1"/>
+<smd name="29" x="0.75" y="4.5" dx="0.2" dy="1" layer="1"/>
+<smd name="30" x="0.25" y="4.5" dx="0.2" dy="1" layer="1"/>
+<smd name="31" x="-0.25" y="4.5" dx="0.2" dy="1" layer="1"/>
+<smd name="32" x="-0.75" y="4.5" dx="0.2" dy="1" layer="1"/>
+<smd name="33" x="-1.25" y="4.5" dx="0.2" dy="1" layer="1"/>
+<smd name="34" x="-1.75" y="4.5" dx="0.2" dy="1" layer="1"/>
+<smd name="35" x="-2.25" y="4.5" dx="0.2" dy="1" layer="1"/>
+<smd name="36" x="-2.75" y="4.5" dx="0.2" dy="1" layer="1"/>
+<smd name="37" x="-4.5" y="2.75" dx="1" dy="0.2" layer="1"/>
+<smd name="38" x="-4.5" y="2.25" dx="1" dy="0.2" layer="1"/>
+<smd name="39" x="-4.5" y="1.75" dx="1" dy="0.2" layer="1"/>
+<smd name="40" x="-4.5" y="1.25" dx="1" dy="0.2" layer="1"/>
+<smd name="41" x="-4.5" y="0.75" dx="1" dy="0.2" layer="1"/>
+<smd name="42" x="-4.5" y="0.25" dx="1" dy="0.2" layer="1"/>
+<smd name="43" x="-4.5" y="-0.25" dx="1" dy="0.2" layer="1"/>
+<smd name="44" x="-4.5" y="-0.75" dx="1" dy="0.2" layer="1"/>
+<smd name="45" x="-4.5" y="-1.25" dx="1" dy="0.2" layer="1"/>
+<smd name="46" x="-4.5" y="-1.75" dx="1" dy="0.2" layer="1"/>
+<smd name="47" x="-4.5" y="-2.25" dx="1" dy="0.2" layer="1"/>
+<smd name="48" x="-4.5" y="-2.75" dx="1" dy="0.2" layer="1"/>
+<text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-1.27" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.85" y1="-4.5" x2="-2.65" y2="-3.45" layer="51"/>
+<rectangle x1="-2.35" y1="-4.5" x2="-2.15" y2="-3.45" layer="51"/>
+<rectangle x1="-1.85" y1="-4.5" x2="-1.65" y2="-3.45" layer="51"/>
+<rectangle x1="-1.35" y1="-4.5" x2="-1.15" y2="-3.45" layer="51"/>
+<rectangle x1="-0.85" y1="-4.5" x2="-0.65" y2="-3.45" layer="51"/>
+<rectangle x1="-0.35" y1="-4.5" x2="-0.15" y2="-3.45" layer="51"/>
+<rectangle x1="0.15" y1="-4.5" x2="0.35" y2="-3.45" layer="51"/>
+<rectangle x1="0.65" y1="-4.5" x2="0.85" y2="-3.45" layer="51"/>
+<rectangle x1="1.15" y1="-4.5" x2="1.35" y2="-3.45" layer="51"/>
+<rectangle x1="1.65" y1="-4.5" x2="1.85" y2="-3.45" layer="51"/>
+<rectangle x1="2.15" y1="-4.5" x2="2.35" y2="-3.45" layer="51"/>
+<rectangle x1="2.65" y1="-4.5" x2="2.85" y2="-3.45" layer="51"/>
+<rectangle x1="3.45" y1="-2.85" x2="4.5" y2="-2.65" layer="51"/>
+<rectangle x1="3.45" y1="-2.35" x2="4.5" y2="-2.15" layer="51"/>
+<rectangle x1="3.45" y1="-1.85" x2="4.5" y2="-1.65" layer="51"/>
+<rectangle x1="3.45" y1="-1.35" x2="4.5" y2="-1.15" layer="51"/>
+<rectangle x1="3.45" y1="-0.85" x2="4.5" y2="-0.65" layer="51"/>
+<rectangle x1="3.45" y1="-0.35" x2="4.5" y2="-0.15" layer="51"/>
+<rectangle x1="3.45" y1="0.15" x2="4.5" y2="0.35" layer="51"/>
+<rectangle x1="3.45" y1="0.65" x2="4.5" y2="0.85" layer="51"/>
+<rectangle x1="3.45" y1="1.15" x2="4.5" y2="1.35" layer="51"/>
+<rectangle x1="3.45" y1="1.65" x2="4.5" y2="1.85" layer="51"/>
+<rectangle x1="3.45" y1="2.15" x2="4.5" y2="2.35" layer="51"/>
+<rectangle x1="3.45" y1="2.65" x2="4.5" y2="2.85" layer="51"/>
+<rectangle x1="2.65" y1="3.45" x2="2.85" y2="4.5" layer="51"/>
+<rectangle x1="2.15" y1="3.45" x2="2.35" y2="4.5" layer="51"/>
+<rectangle x1="1.65" y1="3.45" x2="1.85" y2="4.5" layer="51"/>
+<rectangle x1="1.15" y1="3.45" x2="1.35" y2="4.5" layer="51"/>
+<rectangle x1="0.65" y1="3.45" x2="0.85" y2="4.5" layer="51"/>
+<rectangle x1="0.15" y1="3.45" x2="0.35" y2="4.5" layer="51"/>
+<rectangle x1="-0.35" y1="3.45" x2="-0.15" y2="4.5" layer="51"/>
+<rectangle x1="-0.85" y1="3.45" x2="-0.65" y2="4.5" layer="51"/>
+<rectangle x1="-1.35" y1="3.45" x2="-1.15" y2="4.5" layer="51"/>
+<rectangle x1="-1.85" y1="3.45" x2="-1.65" y2="4.5" layer="51"/>
+<rectangle x1="-2.35" y1="3.45" x2="-2.15" y2="4.5" layer="51"/>
+<rectangle x1="-2.85" y1="3.45" x2="-2.65" y2="4.5" layer="51"/>
+<rectangle x1="-4.5" y1="2.65" x2="-3.45" y2="2.85" layer="51"/>
+<rectangle x1="-4.5" y1="2.15" x2="-3.45" y2="2.35" layer="51"/>
+<rectangle x1="-4.5" y1="1.65" x2="-3.45" y2="1.85" layer="51"/>
+<rectangle x1="-4.5" y1="1.15" x2="-3.45" y2="1.35" layer="51"/>
+<rectangle x1="-4.5" y1="0.65" x2="-3.45" y2="0.85" layer="51"/>
+<rectangle x1="-4.5" y1="0.15" x2="-3.45" y2="0.35" layer="51"/>
+<rectangle x1="-4.5" y1="-0.35" x2="-3.45" y2="-0.15" layer="51"/>
+<rectangle x1="-4.5" y1="-0.85" x2="-3.45" y2="-0.65" layer="51"/>
+<rectangle x1="-4.5" y1="-1.35" x2="-3.45" y2="-1.15" layer="51"/>
+<rectangle x1="-4.5" y1="-1.85" x2="-3.45" y2="-1.65" layer="51"/>
+<rectangle x1="-4.5" y1="-2.35" x2="-3.45" y2="-2.15" layer="51"/>
+<rectangle x1="-4.5" y1="-2.85" x2="-3.45" y2="-2.65" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PORT_A_L">
+<wire x1="7.62" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
+<text x="-2.54" y="10.16" size="1.27" layer="95">&gt;NAME</text>
+<pin name="PA0" x="-7.62" y="7.62" length="middle"/>
+<pin name="PA1" x="-7.62" y="5.08" length="middle"/>
+<pin name="PA2" x="-7.62" y="2.54" length="middle"/>
+<pin name="PA3" x="-7.62" y="0" length="middle"/>
+<pin name="PA4" x="-7.62" y="-2.54" length="middle"/>
+<pin name="PA5" x="-7.62" y="-5.08" length="middle"/>
+<pin name="PA6" x="-7.62" y="-7.62" length="middle"/>
+<pin name="PA7" x="-7.62" y="-10.16" length="middle"/>
+</symbol>
+<symbol name="PORT_A_H">
+<wire x1="7.62" y1="12.7" x2="-2.54" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<text x="-2.54" y="12.7" size="1.27" layer="95">&gt;NAME</text>
+<pin name="PA8" x="-7.62" y="10.16" length="middle"/>
+<pin name="PA9" x="-7.62" y="7.62" length="middle"/>
+<pin name="PA10" x="-7.62" y="5.08" length="middle"/>
+<pin name="PA11" x="-7.62" y="2.54" length="middle"/>
+<pin name="PA12" x="-7.62" y="0" length="middle"/>
+<pin name="PA13" x="-7.62" y="-2.54" length="middle"/>
+<pin name="PA14" x="-7.62" y="-5.08" length="middle"/>
+<pin name="PA15" x="-7.62" y="-7.62" length="middle"/>
+</symbol>
+<symbol name="PORT_B_L">
+<wire x1="-5.08" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<text x="-5.08" y="12.7" size="1.27" layer="95">&gt;NAME</text>
+<pin name="PB0" x="10.16" y="10.16" length="middle" rot="R180"/>
+<pin name="PB1" x="10.16" y="7.62" length="middle" rot="R180"/>
+<pin name="PB2" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="PB3" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="PB4" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="PB5" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="PB6" x="10.16" y="-5.08" length="middle" rot="R180"/>
+<pin name="PB7" x="10.16" y="-7.62" length="middle" rot="R180"/>
+</symbol>
+<symbol name="PORT_B_H">
+<wire x1="-5.08" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<text x="-5.08" y="10.16" size="1.27" layer="95">&gt;NAME</text>
+<pin name="PB8" x="10.16" y="7.62" length="middle" rot="R180"/>
+<pin name="PB9" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="PB10" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="PB11" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="PB12" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="PB13" x="10.16" y="-5.08" length="middle" rot="R180"/>
+<pin name="PB14" x="10.16" y="-7.62" length="middle" rot="R180"/>
+<pin name="PB15" x="10.16" y="-10.16" length="middle" rot="R180"/>
+</symbol>
+<symbol name="VCC_VDD_S">
+<wire x1="5.08" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-17.78" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="17.78" x2="-5.08" y2="-17.78" width="0.254" layer="94"/>
+<text x="-5.08" y="17.78" size="1.27" layer="95">&gt;NAME</text>
+<pin name="VDD_1" x="-10.16" y="15.24" length="middle" direction="pwr"/>
+<pin name="VDD_2" x="-10.16" y="10.16" length="middle" direction="pwr"/>
+<pin name="VDD_3" x="-10.16" y="5.08" length="middle" direction="pwr"/>
+<pin name="VSS_1" x="-10.16" y="-5.08" length="middle" direction="pwr"/>
+<pin name="VSS_2" x="-10.16" y="-10.16" length="middle" direction="pwr"/>
+<pin name="VSS_3" x="-10.16" y="-15.24" length="middle" direction="pwr"/>
+</symbol>
+<symbol name="PORT_C_3">
+<wire x1="7.62" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<text x="-2.54" y="5.08" size="1.27" layer="95">&gt;NAME</text>
+<pin name="PC13" x="-7.62" y="2.54" length="middle"/>
+<pin name="PC14" x="-7.62" y="0" length="middle"/>
+<pin name="PC15" x="-7.62" y="-2.54" length="middle"/>
+</symbol>
+<symbol name="PORT_F_2">
+<wire x1="-7.62" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="2.54" size="1.27" layer="95">&gt;NAME</text>
+<pin name="PF0/OSC&lt;=" x="7.62" y="0" length="middle" rot="R180"/>
+<pin name="PF1/OSC=&gt;" x="7.62" y="-2.54" length="middle" rot="R180"/>
+</symbol>
+<symbol name="BAT_AN_M">
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="-5.08" y="7.62" size="1.27" layer="95">&gt;NAME</text>
+<pin name="VBAT" x="10.16" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="VSSA" x="10.16" y="0" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDDA" x="10.16" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+<symbol name="BOOT_RST">
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="-5.08" y="-7.62" size="1.27" layer="95">&gt;VALUE</text>
+<text x="-5.08" y="5.08" size="1.27" layer="95">&gt;NAME</text>
+<pin name="NRST" x="10.16" y="2.54" length="middle" direction="in" function="dot" rot="R180"/>
+<pin name="BOOT0" x="10.16" y="-2.54" length="middle" direction="in" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="STM32F072XX" prefix="IC">
+<description>ST STM32F072 48pin LQFP</description>
+<gates>
+<gate name="PORTA_L" symbol="PORT_A_L" x="-12.7" y="38.1"/>
+<gate name="PORTA_H" symbol="PORT_A_H" x="-12.7" y="10.16"/>
+<gate name="PORTB_L" symbol="PORT_B_L" x="12.7" y="35.56"/>
+<gate name="PORTB_H" symbol="PORT_B_H" x="12.7" y="12.7"/>
+<gate name="POWER" symbol="VCC_VDD_S" x="-10.16" y="-20.32"/>
+<gate name="PORTC" symbol="PORT_C_3" x="-12.7" y="-45.72"/>
+<gate name="PORTF/OSC" symbol="PORT_F_2" x="15.24" y="-5.08"/>
+<gate name="AN_POWER" symbol="BAT_AN_M" x="12.7" y="-20.32"/>
+<gate name="RESET" symbol="BOOT_RST" x="12.7" y="-35.56"/>
+</gates>
+<devices>
+<device name="" package="TQFP48">
+<connects>
+<connect gate="AN_POWER" pin="VBAT" pad="1"/>
+<connect gate="AN_POWER" pin="VDDA" pad="9"/>
+<connect gate="AN_POWER" pin="VSSA" pad="8"/>
+<connect gate="PORTA_H" pin="PA10" pad="31"/>
+<connect gate="PORTA_H" pin="PA11" pad="32"/>
+<connect gate="PORTA_H" pin="PA12" pad="33"/>
+<connect gate="PORTA_H" pin="PA13" pad="34"/>
+<connect gate="PORTA_H" pin="PA14" pad="37"/>
+<connect gate="PORTA_H" pin="PA15" pad="38"/>
+<connect gate="PORTA_H" pin="PA8" pad="29"/>
+<connect gate="PORTA_H" pin="PA9" pad="30"/>
+<connect gate="PORTA_L" pin="PA0" pad="10"/>
+<connect gate="PORTA_L" pin="PA1" pad="11"/>
+<connect gate="PORTA_L" pin="PA2" pad="12"/>
+<connect gate="PORTA_L" pin="PA3" pad="13"/>
+<connect gate="PORTA_L" pin="PA4" pad="14"/>
+<connect gate="PORTA_L" pin="PA5" pad="15"/>
+<connect gate="PORTA_L" pin="PA6" pad="16"/>
+<connect gate="PORTA_L" pin="PA7" pad="17"/>
+<connect gate="PORTB_H" pin="PB10" pad="21"/>
+<connect gate="PORTB_H" pin="PB11" pad="22"/>
+<connect gate="PORTB_H" pin="PB12" pad="25"/>
+<connect gate="PORTB_H" pin="PB13" pad="26"/>
+<connect gate="PORTB_H" pin="PB14" pad="27"/>
+<connect gate="PORTB_H" pin="PB15" pad="28"/>
+<connect gate="PORTB_H" pin="PB8" pad="45"/>
+<connect gate="PORTB_H" pin="PB9" pad="46"/>
+<connect gate="PORTB_L" pin="PB0" pad="18"/>
+<connect gate="PORTB_L" pin="PB1" pad="19"/>
+<connect gate="PORTB_L" pin="PB2" pad="20"/>
+<connect gate="PORTB_L" pin="PB3" pad="39"/>
+<connect gate="PORTB_L" pin="PB4" pad="40"/>
+<connect gate="PORTB_L" pin="PB5" pad="41"/>
+<connect gate="PORTB_L" pin="PB6" pad="42"/>
+<connect gate="PORTB_L" pin="PB7" pad="43"/>
+<connect gate="PORTC" pin="PC13" pad="2"/>
+<connect gate="PORTC" pin="PC14" pad="3"/>
+<connect gate="PORTC" pin="PC15" pad="4"/>
+<connect gate="PORTF/OSC" pin="PF0/OSC&lt;=" pad="5"/>
+<connect gate="PORTF/OSC" pin="PF1/OSC=&gt;" pad="6"/>
+<connect gate="POWER" pin="VDD_1" pad="24"/>
+<connect gate="POWER" pin="VDD_2" pad="36"/>
+<connect gate="POWER" pin="VDD_3" pad="48"/>
+<connect gate="POWER" pin="VSS_1" pad="23"/>
+<connect gate="POWER" pin="VSS_2" pad="35"/>
+<connect gate="POWER" pin="VSS_3" pad="47"/>
+<connect gate="RESET" pin="BOOT0" pad="44"/>
+<connect gate="RESET" pin="NRST" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="jumper">
+<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="JP1">
+<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<wire x1="-1.016" y1="0" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="0" x2="-1.27" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.27" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.254" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-2.54" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="2.286" x2="1.016" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="2.286" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="2.54" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="2.286" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="2.286" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.254" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-2.54" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-2.54" x2="1.016" y2="-2.54" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="-1.27" drill="0.9144" shape="long"/>
+<pad name="2" x="0" y="1.27" drill="0.9144" shape="long"/>
+<text x="-1.651" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="2.921" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.3048" y1="0.9652" x2="0.3048" y2="1.5748" layer="51"/>
+<rectangle x1="-0.3048" y1="-1.5748" x2="0.3048" y2="-0.9652" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="JP2E">
+<wire x1="0" y1="0" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.4064" layer="94"/>
+<wire x1="-0.635" y1="0" x2="3.175" y2="0" width="0.4064" layer="94"/>
+<wire x1="3.175" y1="0" x2="3.175" y2="0.635" width="0.4064" layer="94"/>
+<wire x1="3.175" y1="0.635" x2="-0.635" y2="0.635" width="0.4064" layer="94"/>
+<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.4064" layer="94"/>
+<text x="-1.27" y="0" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="5.715" y="0" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="1" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="JP1E" prefix="JP" uservalue="yes">
+<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="JP2E" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="JP1">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -14152,6 +14507,17 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 <part name="R16" library="rcl" deviceset="R-EU_" device="R0805" value="TODO"/>
 <part name="R17" library="rcl" deviceset="R-EU_" device="R0805" value="TODO"/>
 <part name="R18" library="rcl" deviceset="R-EU_" device="R0805" value="TODO"/>
+<part name="IC3" library="stm32f051" deviceset="STM32F072XX" device=""/>
+<part name="JP1" library="jumper" deviceset="JP1E" device="" value="BOOT"/>
+<part name="JP2" library="jumper" deviceset="JP1E" device="" value="RESET"/>
+<part name="GND8" library="supply1" deviceset="GND" device=""/>
+<part name="GND13" library="supply1" deviceset="GND" device=""/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="10uF"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="10uF"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C0805" value="10uF"/>
+<part name="GND14" library="supply1" deviceset="GND" device=""/>
+<part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14172,12 +14538,17 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 <wire x1="104.14" y1="99.06" x2="10.16" y2="99.06" width="0.1524" layer="97"/>
 <text x="81.28" y="99.06" size="1.778" layer="97" font="vector">Audio interface</text>
 <wire x1="106.68" y1="170.18" x2="152.4" y2="170.18" width="0.1524" layer="97"/>
-<wire x1="152.4" y1="170.18" x2="152.4" y2="116.84" width="0.1524" layer="97"/>
-<wire x1="152.4" y1="116.84" x2="106.68" y2="116.84" width="0.1524" layer="97"/>
-<wire x1="106.68" y1="116.84" x2="106.68" y2="170.18" width="0.1524" layer="97"/>
-<text x="144.78" y="116.84" size="1.778" layer="97" font="vector">LEDs</text>
+<wire x1="152.4" y1="170.18" x2="152.4" y2="114.3" width="0.1524" layer="97"/>
+<wire x1="152.4" y1="114.3" x2="106.68" y2="114.3" width="0.1524" layer="97"/>
+<wire x1="106.68" y1="114.3" x2="106.68" y2="170.18" width="0.1524" layer="97"/>
+<text x="144.78" y="114.3" size="1.778" layer="97" font="vector">LEDs</text>
 <wire x1="10.16" y1="99.06" x2="10.16" y2="170.18" width="0.1524" layer="97"/>
 <wire x1="10.16" y1="170.18" x2="104.14" y2="170.18" width="0.1524" layer="97"/>
+<wire x1="10.16" y1="93.98" x2="127" y2="93.98" width="0.1524" layer="97"/>
+<wire x1="127" y1="93.98" x2="127" y2="10.16" width="0.1524" layer="97"/>
+<wire x1="127" y1="10.16" x2="10.16" y2="10.16" width="0.1524" layer="97"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="93.98" width="0.1524" layer="97"/>
+<text x="91.44" y="10.16" size="1.778" layer="97" font="vector">STM32F072 / STM32F051</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -14284,6 +14655,32 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 <attribute name="NAME" x="25.4" y="109.7026" size="1.778" layer="95"/>
 <attribute name="VALUE" x="36.576" y="109.728" size="1.778" layer="96"/>
 </instance>
+<instance part="IC3" gate="PORTA_L" x="27.94" y="68.58" rot="R270"/>
+<instance part="IC3" gate="PORTA_H" x="53.34" y="68.58" rot="R270"/>
+<instance part="IC3" gate="PORTB_L" x="83.82" y="66.04" rot="R90"/>
+<instance part="IC3" gate="PORTB_H" x="109.22" y="66.04" rot="R90"/>
+<instance part="IC3" gate="POWER" x="40.64" y="53.34" rot="R90"/>
+<instance part="IC3" gate="AN_POWER" x="71.12" y="53.34" rot="R270"/>
+<instance part="IC3" gate="RESET" x="88.9" y="53.34" rot="R270"/>
+<instance part="JP1" gate="A" x="101.6" y="45.72"/>
+<instance part="JP2" gate="A" x="111.76" y="45.72"/>
+<instance part="GND8" gate="1" x="114.3" y="27.94"/>
+<instance part="GND13" gate="1" x="104.14" y="27.94"/>
+<instance part="C7" gate="G$1" x="35.56" y="35.56" smashed="yes">
+<attribute name="NAME" x="37.084" y="35.941" size="1.778" layer="95"/>
+<attribute name="VALUE" x="37.719" y="26.924" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C8" gate="G$1" x="30.48" y="35.56" smashed="yes">
+<attribute name="NAME" x="32.004" y="35.941" size="1.778" layer="95"/>
+<attribute name="VALUE" x="32.639" y="26.924" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C9" gate="G$1" x="25.4" y="35.56" smashed="yes">
+<attribute name="NAME" x="26.924" y="35.941" size="1.778" layer="95"/>
+<attribute name="VALUE" x="27.559" y="26.924" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND14" gate="1" x="40.64" y="17.78"/>
+<instance part="+3V3" gate="G$1" x="15.24" y="53.34"/>
+<instance part="+3V4" gate="G$1" x="60.96" y="45.72"/>
 </instances>
 <busses>
 </busses>
@@ -14370,6 +14767,47 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 <wire x1="142.24" y1="132.08" x2="142.24" y2="127" width="0.1524" layer="91"/>
 <junction x="142.24" y="132.08"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="A" pin="2"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="104.14" y1="43.18" x2="104.14" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="2"/>
+<pinref part="GND8" gate="1" pin="GND"/>
+<wire x1="114.3" y1="43.18" x2="114.3" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="30.48" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="25.4" x2="30.48" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="POWER" pin="VSS_3"/>
+<wire x1="30.48" y1="25.4" x2="35.56" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="25.4" x2="40.64" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="25.4" x2="45.72" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="25.4" x2="50.8" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="25.4" x2="55.88" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="25.4" x2="55.88" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="POWER" pin="VSS_2"/>
+<wire x1="50.8" y1="43.18" x2="50.8" y2="25.4" width="0.1524" layer="91"/>
+<junction x="50.8" y="25.4"/>
+<pinref part="IC3" gate="POWER" pin="VSS_1"/>
+<wire x1="45.72" y1="43.18" x2="45.72" y2="25.4" width="0.1524" layer="91"/>
+<junction x="45.72" y="25.4"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="35.56" y1="30.48" x2="35.56" y2="25.4" width="0.1524" layer="91"/>
+<junction x="35.56" y="25.4"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="30.48" y1="30.48" x2="30.48" y2="25.4" width="0.1524" layer="91"/>
+<junction x="30.48" y="25.4"/>
+<pinref part="GND14" gate="1" pin="GND"/>
+<wire x1="40.64" y1="20.32" x2="40.64" y2="25.4" width="0.1524" layer="91"/>
+<junction x="40.64" y="25.4"/>
+<pinref part="IC3" gate="AN_POWER" pin="VSSA"/>
+<wire x1="71.12" y1="43.18" x2="71.12" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="25.4" x2="55.88" y2="25.4" width="0.1524" layer="91"/>
+<junction x="55.88" y="25.4"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -14395,12 +14833,32 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 <wire x1="238.76" y1="132.08" x2="236.22" y2="132.08" width="0.1524" layer="91"/>
 <label x="236.22" y="132.08" size="1.778" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC3" gate="RESET" pin="BOOT0"/>
+<wire x1="86.36" y1="43.18" x2="86.36" y2="40.64" width="0.1524" layer="91"/>
+<label x="86.36" y="35.56" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="JP1" gate="A" pin="1"/>
+<wire x1="86.36" y1="40.64" x2="86.36" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="40.64" x2="101.6" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="40.64" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
+<junction x="86.36" y="40.64"/>
+</segment>
 </net>
 <net name="RST" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="238.76" y1="144.78" x2="236.22" y2="144.78" width="0.1524" layer="91"/>
 <label x="236.22" y="144.78" size="1.778" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="RESET" pin="NRST"/>
+<wire x1="91.44" y1="43.18" x2="91.44" y2="38.1" width="0.1524" layer="91"/>
+<label x="91.44" y="35.56" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="JP2" gate="A" pin="1"/>
+<wire x1="91.44" y1="38.1" x2="91.44" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="38.1" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="38.1" x2="111.76" y2="43.18" width="0.1524" layer="91"/>
+<junction x="91.44" y="38.1"/>
 </segment>
 </net>
 <net name="RDR_TXD" class="0">
@@ -14409,12 +14867,22 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 <wire x1="172.72" y1="132.08" x2="170.18" y2="132.08" width="0.1524" layer="91"/>
 <label x="170.18" y="132.08" size="1.778" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC3" gate="PORTA_H" pin="PA14"/>
+<wire x1="48.26" y1="76.2" x2="48.26" y2="78.74" width="0.1524" layer="91"/>
+<label x="48.26" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="RDR_RXD" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="R1OUT"/>
 <wire x1="172.72" y1="127" x2="170.18" y2="127" width="0.1524" layer="91"/>
 <label x="170.18" y="127" size="1.778" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="PORTA_H" pin="PA15"/>
+<wire x1="45.72" y1="76.2" x2="45.72" y2="78.74" width="0.127" layer="91"/>
+<label x="45.72" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -14433,6 +14901,39 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 <wire x1="215.9" y1="73.66" x2="215.9" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="71.12" x2="223.52" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="IC3" gate="POWER" pin="VDD_3"/>
+<wire x1="35.56" y1="38.1" x2="35.56" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="IC3" gate="POWER" pin="VDD_2"/>
+<wire x1="35.56" y1="40.64" x2="35.56" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="38.1" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="40.64" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="40.64" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
+<junction x="35.56" y="40.64"/>
+<junction x="30.48" y="40.64"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="IC3" gate="POWER" pin="VDD_1"/>
+<wire x1="25.4" y1="38.1" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="40.64" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="40.64" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
+<junction x="25.4" y="40.64"/>
+<pinref part="+3V3" gate="G$1" pin="+3V3"/>
+<wire x1="25.4" y1="40.64" x2="15.24" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="40.64" x2="15.24" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<wire x1="60.96" y1="43.18" x2="60.96" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="40.64" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="AN_POWER" pin="VDDA"/>
+<wire x1="66.04" y1="40.64" x2="66.04" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="AN_POWER" pin="VBAT"/>
+<wire x1="76.2" y1="43.18" x2="76.2" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="40.64" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
+<junction x="66.04" y="40.64"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -14543,6 +15044,11 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 <wire x1="203.2" y1="93.98" x2="200.66" y2="93.98" width="0.1524" layer="91"/>
 <label x="200.66" y="93.98" size="1.778" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC3" gate="PORTA_H" pin="PA12"/>
+<wire x1="53.34" y1="76.2" x2="53.34" y2="78.74" width="0.1524" layer="91"/>
+<label x="53.34" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="USB_D+" class="0">
 <segment>
@@ -14551,6 +15057,11 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 <wire x1="203.2" y1="88.9" x2="203.2" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="86.36" x2="200.66" y2="86.36" width="0.1524" layer="91"/>
 <label x="200.66" y="86.36" size="1.778" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="PORTA_H" pin="PA11"/>
+<wire x1="55.88" y1="76.2" x2="55.88" y2="78.74" width="0.1524" layer="91"/>
+<label x="55.88" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -14598,6 +15109,11 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 <wire x1="45.72" y1="149.86" x2="45.72" y2="152.4" width="0.1524" layer="91"/>
 <label x="45.72" y="152.4" size="1.778" layer="95" font="vector" rot="R90" xref="yes"/>
 <pinref part="R5" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="PORTA_L" pin="PA4"/>
+<wire x1="25.4" y1="76.2" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
+<label x="25.4" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -14660,32 +15176,40 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 <wire x1="142.24" y1="142.24" x2="142.24" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LED-R1" class="0">
+<net name="LED_R1" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="114.3" y1="152.4" x2="114.3" y2="157.48" width="0.1524" layer="91"/>
 <label x="114.3" y="157.48" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC3" gate="PORTB_L" pin="PB0"/>
+<wire x1="73.66" y1="76.2" x2="73.66" y2="78.74" width="0.1524" layer="91"/>
+<label x="73.66" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
-<net name="LED-G1" class="0">
+<net name="LED_G1" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="152.4" x2="119.38" y2="157.48" width="0.1524" layer="91"/>
 <label x="119.38" y="157.48" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC3" gate="PORTB_L" pin="PB1"/>
+<wire x1="76.2" y1="76.2" x2="76.2" y2="78.74" width="0.1524" layer="91"/>
+<label x="76.2" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
-<net name="LED-R2" class="0">
+<net name="LED_R2" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="152.4" x2="137.16" y2="157.48" width="0.1524" layer="91"/>
 <label x="137.16" y="157.48" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
-</net>
-<net name="LED-G2" class="0">
 <segment>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="152.4" x2="142.24" y2="157.48" width="0.1524" layer="91"/>
-<label x="142.24" y="157.48" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="IC3" gate="PORTA_H" pin="PA9"/>
+<wire x1="60.96" y1="76.2" x2="60.96" y2="78.74" width="0.1524" layer="91"/>
+<label x="60.96" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="VOL_0" class="0">
@@ -14694,12 +15218,22 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 <wire x1="27.94" y1="127" x2="22.86" y2="127" width="0.1524" layer="91"/>
 <label x="22.86" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC3" gate="PORTB_H" pin="PB8"/>
+<wire x1="101.6" y1="76.2" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
+<label x="101.6" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="VOL_1" class="0">
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="124.46" x2="22.86" y2="124.46" width="0.1524" layer="91"/>
 <label x="22.86" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="PORTB_H" pin="PB9"/>
+<wire x1="104.14" y1="76.2" x2="104.14" y2="78.74" width="0.1524" layer="91"/>
+<label x="104.14" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="VOL_2" class="0">
@@ -14708,12 +15242,22 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 <wire x1="27.94" y1="121.92" x2="22.86" y2="121.92" width="0.1524" layer="91"/>
 <label x="22.86" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC3" gate="PORTB_H" pin="PB10"/>
+<wire x1="106.68" y1="76.2" x2="106.68" y2="78.74" width="0.1524" layer="91"/>
+<label x="106.68" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="VOL_3" class="0">
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="119.38" x2="22.86" y2="119.38" width="0.1524" layer="91"/>
 <label x="22.86" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="PORTB_H" pin="PB11"/>
+<wire x1="109.22" y1="76.2" x2="109.22" y2="78.74" width="0.1524" layer="91"/>
+<label x="109.22" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="VOL_4" class="0">
@@ -14722,12 +15266,22 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 <wire x1="27.94" y1="116.84" x2="22.86" y2="116.84" width="0.1524" layer="91"/>
 <label x="22.86" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC3" gate="PORTB_H" pin="PB12"/>
+<wire x1="111.76" y1="76.2" x2="111.76" y2="78.74" width="0.1524" layer="91"/>
+<label x="111.76" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="VOL_5" class="0">
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="114.3" x2="22.86" y2="114.3" width="0.1524" layer="91"/>
 <label x="22.86" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="PORTB_H" pin="PB13"/>
+<wire x1="114.3" y1="76.2" x2="114.3" y2="78.74" width="0.1524" layer="91"/>
+<label x="114.3" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="VOL_6" class="0">
@@ -14736,12 +15290,69 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 <wire x1="27.94" y1="111.76" x2="22.86" y2="111.76" width="0.1524" layer="91"/>
 <label x="22.86" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC3" gate="PORTB_H" pin="PB14"/>
+<wire x1="116.84" y1="76.2" x2="116.84" y2="78.74" width="0.1524" layer="91"/>
+<label x="116.84" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="VOL_7" class="0">
 <segment>
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="109.22" x2="22.86" y2="109.22" width="0.1524" layer="91"/>
 <label x="22.86" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="PORTB_H" pin="PB15"/>
+<wire x1="119.38" y1="76.2" x2="119.38" y2="78.74" width="0.1524" layer="91"/>
+<label x="119.38" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="RFID_SCK" class="0">
+<segment>
+<pinref part="IC3" gate="PORTA_L" pin="PA5"/>
+<wire x1="22.86" y1="76.2" x2="22.86" y2="78.74" width="0.1524" layer="91"/>
+<label x="22.86" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="RFID_MISO" class="0">
+<segment>
+<pinref part="IC3" gate="PORTA_L" pin="PA6"/>
+<wire x1="20.32" y1="76.2" x2="20.32" y2="78.74" width="0.1524" layer="91"/>
+<label x="20.32" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="RFID_MOSI" class="0">
+<segment>
+<pinref part="IC3" gate="PORTA_L" pin="PA7"/>
+<wire x1="17.78" y1="76.2" x2="17.78" y2="78.74" width="0.1524" layer="91"/>
+<label x="17.78" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="RFID_RST" class="0">
+<segment>
+<pinref part="IC3" gate="PORTA_L" pin="PA3"/>
+<wire x1="27.94" y1="76.2" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
+<label x="27.94" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="RFID_IRQ" class="0">
+<segment>
+<pinref part="IC3" gate="PORTA_L" pin="PA0"/>
+<wire x1="35.56" y1="76.2" x2="35.56" y2="78.74" width="0.1524" layer="91"/>
+<label x="35.56" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="LED_G2" class="0">
+<segment>
+<pinref part="IC3" gate="PORTA_H" pin="PA8"/>
+<wire x1="63.5" y1="76.2" x2="63.5" y2="78.74" width="0.1524" layer="91"/>
+<label x="63.5" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="152.4" x2="142.24" y2="157.48" width="0.1524" layer="91"/>
+<label x="142.24" y="157.48" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 </nets>
