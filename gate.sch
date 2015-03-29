@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -14447,6 +14447,156 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="mfrc522-module">
+<packages>
+<package name="RFID-RC522">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="3.175" y1="1.27" x2="4.445" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="1.27" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0.635" x2="5.08" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-0.635" x2="4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0.635" x2="5.715" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="5.715" y1="1.27" x2="6.985" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="6.985" y1="1.27" x2="7.62" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="0.635" x2="7.62" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="-0.635" x2="6.985" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="6.985" y1="-1.27" x2="5.715" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="5.715" y1="-1.27" x2="5.08" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="-1.27" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="0.635" x2="-4.445" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.27" x2="-3.175" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="-1.27" x2="-4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="-1.27" x2="-5.08" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-9.525" y1="1.27" x2="-8.255" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-8.255" y1="1.27" x2="-7.62" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="0.635" x2="-7.62" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-0.635" x2="-8.255" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="0.635" x2="-6.985" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-6.985" y1="1.27" x2="-5.715" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-5.715" y1="1.27" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="0.635" x2="-5.08" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-0.635" x2="-5.715" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-5.715" y1="-1.27" x2="-6.985" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-6.985" y1="-1.27" x2="-7.62" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="0.635" x2="-10.16" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-9.525" y1="1.27" x2="-10.16" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="-0.635" x2="-9.525" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-8.255" y1="-1.27" x2="-9.525" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="8.255" y1="1.27" x2="9.525" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="9.525" y1="1.27" x2="10.16" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="10.16" y1="0.635" x2="10.16" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="10.16" y1="-0.635" x2="9.525" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="8.255" y1="1.27" x2="7.62" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="-0.635" x2="8.255" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="9.525" y1="-1.27" x2="8.255" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="3V3" x="-8.89" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="RST" x="-6.35" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="GND" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="IRQ" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="MISO" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="MOSI" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="SCK" x="6.35" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="SS" x="8.89" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-19.0062" y="3.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="12.57" y="3.825" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
+<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
+<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
+<rectangle x1="-9.144" y1="-0.254" x2="-8.636" y2="0.254" layer="51"/>
+<rectangle x1="8.636" y1="-0.254" x2="9.144" y2="0.254" layer="51"/>
+<wire x1="-19.5" y1="3" x2="19.5" y2="3" width="0.127" layer="21"/>
+<wire x1="19.5" y1="3" x2="19.5" y2="-57" width="0.127" layer="21"/>
+<wire x1="19.5" y1="-57" x2="-19.5" y2="-57" width="0.127" layer="21"/>
+<wire x1="-19.5" y1="-57" x2="-19.5" y2="3" width="0.127" layer="21"/>
+<circle x="0" y="-39.5" radius="0.70710625" width="0.127" layer="21"/>
+<wire x1="2" y1="-38.5" x2="2" y2="-40.5" width="0.127" layer="21" curve="-53.130102"/>
+<wire x1="3" y1="-37.5" x2="3" y2="-41.5" width="0.127" layer="21" curve="-67.380135"/>
+<wire x1="4" y1="-36.5" x2="4" y2="-42.5" width="0.127" layer="21" curve="-77.319617"/>
+<wire x1="5" y1="-35.5" x2="5" y2="-43.5" width="0.127" layer="21" curve="-83.64034"/>
+<wire x1="6" y1="-34.5" x2="6" y2="-44.5" width="0.127" layer="21" curve="-82.37185"/>
+<wire x1="-2" y1="-40.5" x2="-2" y2="-38.5" width="0.127" layer="21" curve="-53.130102"/>
+<wire x1="-3" y1="-41.5" x2="-3" y2="-37.5" width="0.127" layer="21" curve="-67.380135"/>
+<wire x1="-4" y1="-42.5" x2="-4" y2="-36.5" width="0.127" layer="21" curve="-77.319617"/>
+<wire x1="-5" y1="-43.5" x2="-5" y2="-35.5" width="0.127" layer="21" curve="-83.64034"/>
+<wire x1="-6" y1="-44.5" x2="-6" y2="-34.5" width="0.127" layer="21" curve="-82.37185"/>
+</package>
+</packages>
+<symbols>
+<symbol name="RFID-RC522">
+<wire x1="-8.89" y1="-11.43" x2="21.59" y2="-11.43" width="0.4064" layer="94"/>
+<wire x1="21.59" y1="-11.43" x2="21.59" y2="11.43" width="0.4064" layer="94"/>
+<wire x1="21.59" y1="11.43" x2="-8.89" y2="11.43" width="0.4064" layer="94"/>
+<wire x1="-8.89" y1="11.43" x2="-8.89" y2="-11.43" width="0.4064" layer="94"/>
+<text x="-3.81" y="13.335" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="8.89" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="-2.54" y="6.35" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3" x="-2.54" y="3.81" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="4" x="-2.54" y="1.27" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="5" x="-2.54" y="-1.27" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="6" x="-2.54" y="-3.81" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="7" x="-2.54" y="-6.35" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="8" x="-2.54" y="-8.89" visible="pad" length="short" direction="pas" function="dot"/>
+<circle x="10.922" y="0" radius="0.359209375" width="0.254" layer="94"/>
+<wire x1="11.684" y1="1.016" x2="11.684" y2="-1.016" width="0.254" layer="94" curve="-106.260205"/>
+<wire x1="12.7" y1="2.032" x2="12.7" y2="-2.032" width="0.254" layer="94" curve="-97.62815"/>
+<wire x1="13.716" y1="3.048" x2="13.716" y2="-3.048" width="0.254" layer="94" curve="-104.862816"/>
+<wire x1="10.16" y1="-1.016" x2="10.16" y2="1.016" width="0.254" layer="94" curve="-106.260205"/>
+<wire x1="9.144" y1="-2.032" x2="9.144" y2="2.032" width="0.254" layer="94" curve="-97.62815"/>
+<wire x1="8.128" y1="-3.048" x2="8.128" y2="3.048" width="0.254" layer="94" curve="-104.862816"/>
+<text x="4.572" y="-5.08" size="1.27" layer="94">RFID - RC522</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RFID-RC522" prefix="M" uservalue="yes">
+<description>&lt;b&gt;RFID-RC522&lt;/b&gt;&lt;p&gt;
+
+MFRC-522 based breakout board</description>
+<gates>
+<gate name="A" symbol="RFID-RC522" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RFID-RC522">
+<connects>
+<connect gate="A" pin="1" pad="3V3"/>
+<connect gate="A" pin="2" pad="RST"/>
+<connect gate="A" pin="3" pad="GND"/>
+<connect gate="A" pin="4" pad="IRQ"/>
+<connect gate="A" pin="5" pad="MISO"/>
+<connect gate="A" pin="6" pad="MOSI"/>
+<connect gate="A" pin="7" pad="SCK"/>
+<connect gate="A" pin="8" pad="SS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -14518,6 +14668,10 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
+<part name="M1" library="mfrc522-module" deviceset="RFID-RC522" device=""/>
+<part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND15" library="supply1" deviceset="GND" device=""/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="10uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -14549,6 +14703,11 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 <wire x1="127" y1="10.16" x2="10.16" y2="10.16" width="0.1524" layer="97"/>
 <wire x1="10.16" y1="10.16" x2="10.16" y2="93.98" width="0.1524" layer="97"/>
 <text x="91.44" y="10.16" size="1.778" layer="97" font="vector">STM32F072 / STM32F051</text>
+<wire x1="185.42" y1="57.15" x2="251.46" y2="57.15" width="0.1524" layer="97"/>
+<wire x1="251.46" y1="57.15" x2="251.46" y2="26.67" width="0.1524" layer="97"/>
+<wire x1="251.46" y1="26.67" x2="185.42" y2="26.67" width="0.1524" layer="97"/>
+<wire x1="185.42" y1="26.67" x2="185.42" y2="57.15" width="0.1524" layer="97"/>
+<text x="233.68" y="26.67" size="1.778" layer="97" font="vector">RFID module</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -14681,6 +14840,18 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 <instance part="GND14" gate="1" x="40.64" y="17.78"/>
 <instance part="+3V3" gate="G$1" x="15.24" y="53.34"/>
 <instance part="+3V4" gate="G$1" x="60.96" y="45.72"/>
+<instance part="M1" gate="A" x="227.33" y="43.18" smashed="yes">
+<attribute name="NAME" x="243.84" y="51.435" size="1.778" layer="95"/>
+<attribute name="VALUE" x="223.52" y="27.94" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V5" gate="G$1" x="198.12" y="55.88" smashed="yes">
+<attribute name="VALUE" x="199.39" y="54.61" size="1.778" layer="96"/>
+</instance>
+<instance part="GND15" gate="1" x="198.12" y="30.48"/>
+<instance part="C10" gate="G$1" x="195.58" y="49.53" smashed="yes">
+<attribute name="NAME" x="194.564" y="51.181" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="194.945" y="41.656" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14808,6 +14979,16 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 <wire x1="71.12" y1="25.4" x2="55.88" y2="25.4" width="0.1524" layer="91"/>
 <junction x="55.88" y="25.4"/>
 </segment>
+<segment>
+<pinref part="M1" gate="A" pin="3"/>
+<pinref part="GND15" gate="1" pin="GND"/>
+<wire x1="224.79" y1="46.99" x2="198.12" y2="46.99" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="46.99" x2="198.12" y2="44.45" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="198.12" y1="44.45" x2="198.12" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="44.45" x2="198.12" y2="44.45" width="0.1524" layer="91"/>
+<junction x="198.12" y="44.45"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -14934,6 +15115,15 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 <wire x1="76.2" y1="43.18" x2="76.2" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="40.64" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
 <junction x="66.04" y="40.64"/>
+</segment>
+<segment>
+<pinref part="M1" gate="A" pin="1"/>
+<pinref part="+3V5" gate="G$1" pin="+3V3"/>
+<wire x1="224.79" y1="52.07" x2="198.12" y2="52.07" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="52.07" x2="198.12" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="195.58" y1="52.07" x2="198.12" y2="52.07" width="0.1524" layer="91"/>
+<junction x="198.12" y="52.07"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -15314,12 +15504,22 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 <wire x1="22.86" y1="76.2" x2="22.86" y2="78.74" width="0.1524" layer="91"/>
 <label x="22.86" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="M1" gate="A" pin="7"/>
+<wire x1="224.79" y1="36.83" x2="214.63" y2="36.83" width="0.1524" layer="91"/>
+<label x="214.63" y="36.83" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="RFID_MISO" class="0">
 <segment>
 <pinref part="IC3" gate="PORTA_L" pin="PA6"/>
 <wire x1="20.32" y1="76.2" x2="20.32" y2="78.74" width="0.1524" layer="91"/>
 <label x="20.32" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="M1" gate="A" pin="5"/>
+<wire x1="224.79" y1="41.91" x2="214.63" y2="41.91" width="0.1524" layer="91"/>
+<label x="214.63" y="41.91" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RFID_MOSI" class="0">
@@ -15328,6 +15528,11 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 <wire x1="17.78" y1="76.2" x2="17.78" y2="78.74" width="0.1524" layer="91"/>
 <label x="17.78" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="M1" gate="A" pin="6"/>
+<wire x1="224.79" y1="39.37" x2="214.63" y2="39.37" width="0.1524" layer="91"/>
+<label x="214.63" y="39.37" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="RFID_RST" class="0">
 <segment>
@@ -15335,12 +15540,22 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 <wire x1="27.94" y1="76.2" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
 <label x="27.94" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="M1" gate="A" pin="2"/>
+<wire x1="224.79" y1="49.53" x2="214.63" y2="49.53" width="0.1524" layer="91"/>
+<label x="214.63" y="49.53" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="RFID_IRQ" class="0">
 <segment>
 <pinref part="IC3" gate="PORTA_L" pin="PA0"/>
 <wire x1="35.56" y1="76.2" x2="35.56" y2="78.74" width="0.1524" layer="91"/>
 <label x="35.56" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="M1" gate="A" pin="4"/>
+<wire x1="224.79" y1="44.45" x2="214.63" y2="44.45" width="0.1524" layer="91"/>
+<label x="214.63" y="44.45" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LED_G2" class="0">
@@ -15353,6 +15568,18 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="152.4" x2="142.24" y2="157.48" width="0.1524" layer="91"/>
 <label x="142.24" y="157.48" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="RFID_SS" class="0">
+<segment>
+<pinref part="IC3" gate="PORTA_L" pin="PA1"/>
+<wire x1="33.02" y1="76.2" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
+<label x="33.02" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="M1" gate="A" pin="8"/>
+<wire x1="224.79" y1="34.29" x2="214.63" y2="34.29" width="0.1524" layer="91"/>
+<label x="214.63" y="34.29" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
