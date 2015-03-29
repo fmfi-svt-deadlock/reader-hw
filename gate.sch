@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -15380,6 +15380,94 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="kaa-3528">
+<packages>
+<package name="KAA-3528SRSGS">
+<description>&lt;b&gt;KAA-3528SRSGS&lt;/b&gt;&lt;p&gt;</description>
+<text x="-2.762" y="1.778" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.762" y="-3.048" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-1.6" y1="1.4" x2="-1.6" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="-1.4" x2="1" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="1" y1="-1.4" x2="1.6" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-1.4" x2="1.6" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="1.6" y2="1.4" width="0.127" layer="51"/>
+<wire x1="1.6" y1="1.4" x2="-1.6" y2="1.4" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="1.2" width="0.127" layer="51"/>
+<wire x1="1" y1="-1.4" x2="1.6" y2="-0.8" width="0.127" layer="51"/>
+<smd name="1" x="1.5" y="-0.7" dx="0.8" dy="0.75" layer="1"/>
+<smd name="4" x="1.5" y="0.7" dx="0.8" dy="0.75" layer="1"/>
+<smd name="3" x="-1.5" y="0.7" dx="0.8" dy="0.75" layer="1"/>
+<smd name="2" x="-1.5" y="-0.7" dx="0.8" dy="0.75" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LED-RG">
+<wire x1="-3.81" y1="-0.762" x2="-5.08" y2="-2.794" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.794" x2="-6.35" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-2.794" x2="-5.08" y2="-2.794" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.794" x2="-6.35" y2="-2.794" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-0.762" x2="-6.35" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-7.112" y1="-1.016" x2="-8.001" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="-1.778" x2="-7.239" y2="-2.667" width="0.1524" layer="94"/>
+<text x="5.08" y="0.762" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.08" y="-2.159" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="C-RED" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="A-RED" x="-5.08" y="2.54" visible="pad" length="middle" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-8.128" y="-1.524"/>
+<vertex x="-8.382" y="-2.286"/>
+<vertex x="-7.62" y="-2.032"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-7.366" y="-2.286"/>
+<vertex x="-7.62" y="-3.048"/>
+<vertex x="-6.858" y="-2.794"/>
+</polygon>
+<wire x1="1.27" y1="-0.762" x2="0" y2="-2.794" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.794" x2="-1.27" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.794" x2="0" y2="-2.794" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.794" x2="-1.27" y2="-2.794" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-0.762" x2="-1.27" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="-1.016" x2="-2.921" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-1.778" x2="-2.159" y2="-2.667" width="0.1524" layer="94"/>
+<pin name="C-GREEN" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="A-GREEN" x="0" y="2.54" visible="pad" length="middle" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.048" y="-1.524"/>
+<vertex x="-3.302" y="-2.286"/>
+<vertex x="-2.54" y="-2.032"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-2.286" y="-2.286"/>
+<vertex x="-2.54" y="-3.048"/>
+<vertex x="-1.778" y="-2.794"/>
+</polygon>
+<text x="-7.62" y="1.016" size="0.762" layer="94">red</text>
+<text x="0.508" y="1.016" size="0.762" layer="94">green</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="KAA-3528SRSGS" prefix="LED">
+<description>&lt;b&gt;KINGBRIGHT ELECTRONIC KAA-3528RSGS&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED-RG" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="KAA-3528SRSGS">
+<connects>
+<connect gate="G$1" pin="A-GREEN" pad="4"/>
+<connect gate="G$1" pin="A-RED" pad="1"/>
+<connect gate="G$1" pin="C-GREEN" pad="3"/>
+<connect gate="G$1" pin="C-RED" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -15425,6 +15513,14 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 <part name="SP1" library="speaker" deviceset="SMS-1308MS-2-R" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+12V" device=""/>
+<part name="LED1" library="kaa-3528" deviceset="KAA-3528SRSGS" device=""/>
+<part name="GND11" library="supply1" deviceset="GND" device=""/>
+<part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="330R"/>
+<part name="R8" library="rcl" deviceset="R-EU_" device="R0805" value="330R"/>
+<part name="LED2" library="kaa-3528" deviceset="KAA-3528SRSGS" device=""/>
+<part name="GND12" library="supply1" deviceset="GND" device=""/>
+<part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="330R"/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="330R"/>
 </parts>
 <sheets>
 <sheet>
@@ -15446,6 +15542,11 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 <wire x1="81.28" y1="104.14" x2="7.62" y2="104.14" width="0.1524" layer="97"/>
 <wire x1="7.62" y1="104.14" x2="7.62" y2="170.18" width="0.1524" layer="97"/>
 <text x="58.42" y="104.14" size="1.778" layer="97" font="vector">Audio interface</text>
+<wire x1="106.68" y1="170.18" x2="152.4" y2="170.18" width="0.1524" layer="97"/>
+<wire x1="152.4" y1="170.18" x2="152.4" y2="116.84" width="0.1524" layer="97"/>
+<wire x1="152.4" y1="116.84" x2="106.68" y2="116.84" width="0.1524" layer="97"/>
+<wire x1="106.68" y1="116.84" x2="106.68" y2="170.18" width="0.1524" layer="97"/>
+<text x="144.78" y="116.84" size="1.778" layer="97" font="vector">LEDs</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -15495,6 +15596,32 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 </instance>
 <instance part="GND10" gate="1" x="71.12" y="111.76"/>
 <instance part="P+1" gate="1" x="223.52" y="165.1"/>
+<instance part="LED1" gate="G$1" x="119.38" y="137.16" smashed="yes">
+<attribute name="NAME" x="123.698" y="127" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="126.619" y="127" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND11" gate="1" x="119.38" y="124.46"/>
+<instance part="R7" gate="G$1" x="114.3" y="147.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="112.8014" y="143.51" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="112.522" y="148.59" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R8" gate="G$1" x="119.38" y="147.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="122.9614" y="143.51" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="122.682" y="148.59" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="LED2" gate="G$1" x="142.24" y="137.16" smashed="yes">
+<attribute name="NAME" x="146.558" y="127" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="149.479" y="127" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND12" gate="1" x="142.24" y="124.46"/>
+<instance part="R9" gate="G$1" x="137.16" y="147.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="135.6614" y="143.51" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="135.382" y="148.59" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R10" gate="G$1" x="142.24" y="147.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="145.8214" y="143.51" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="145.542" y="148.59" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -15569,6 +15696,22 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 <wire x1="215.9" y1="144.78" x2="215.9" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="144.78" x2="215.9" y2="144.78" width="0.1524" layer="91"/>
 <junction x="215.9" y="144.78"/>
+</segment>
+<segment>
+<pinref part="LED1" gate="G$1" pin="C-RED"/>
+<pinref part="LED1" gate="G$1" pin="C-GREEN"/>
+<wire x1="114.3" y1="132.08" x2="119.38" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="119.38" y1="132.08" x2="119.38" y2="127" width="0.1524" layer="91"/>
+<junction x="119.38" y="132.08"/>
+</segment>
+<segment>
+<pinref part="LED2" gate="G$1" pin="C-RED"/>
+<pinref part="LED2" gate="G$1" pin="C-GREEN"/>
+<wire x1="137.16" y1="132.08" x2="142.24" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="142.24" y1="132.08" x2="142.24" y2="127" width="0.1524" layer="91"/>
+<junction x="142.24" y="132.08"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -15797,6 +15940,62 @@ Source: pui audio inc. SMS-1308MS-2-R.pdf</description>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="223.52" y1="157.48" x2="223.52" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="+12V"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="LED1" gate="G$1" pin="A-RED"/>
+<wire x1="114.3" y1="142.24" x2="114.3" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="LED1" gate="G$1" pin="A-GREEN"/>
+<wire x1="119.38" y1="142.24" x2="119.38" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="LED2" gate="G$1" pin="A-RED"/>
+<wire x1="137.16" y1="142.24" x2="137.16" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="LED2" gate="G$1" pin="A-GREEN"/>
+<wire x1="142.24" y1="142.24" x2="142.24" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED-R1" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="114.3" y1="152.4" x2="114.3" y2="157.48" width="0.1524" layer="91"/>
+<label x="114.3" y="157.48" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="LED-G1" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="119.38" y1="152.4" x2="119.38" y2="157.48" width="0.1524" layer="91"/>
+<label x="119.38" y="157.48" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="LED-R2" class="0">
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="137.16" y1="152.4" x2="137.16" y2="157.48" width="0.1524" layer="91"/>
+<label x="137.16" y="157.48" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="LED-G2" class="0">
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="152.4" x2="142.24" y2="157.48" width="0.1524" layer="91"/>
+<label x="142.24" y="157.48" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 </nets>
