@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -16561,7 +16561,7 @@ package</description>
 <sheets>
 <sheet>
 <plain>
-<text x="217.424" y="20.32" size="2.032" layer="94" font="vector">Project Gate - Reader</text>
+<text x="217.424" y="20.32" size="2.032" layer="94" font="vector">Deadlock - Reader</text>
 <text x="247.396" y="5.588" size="1.778" layer="94" font="vector">Rev A</text>
 <wire x1="154.94" y1="170.18" x2="251.46" y2="170.18" width="0.1524" layer="97"/>
 <wire x1="251.46" y1="170.18" x2="251.46" y2="114.3" width="0.1524" layer="97"/>
