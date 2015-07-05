@@ -1,10 +1,11 @@
-<h3>Project Gate - reader</h3>
+<h3>Project Deadlock - reader</h3>
 Card reader <br />
 
 Contains schematics and PCB layout of the Reader component.
 <br />
 <br />
-See <a href="https://github.com/fmfi-svt-gate/server/wiki">https://github.com/fmfi-svt-gate/server/wiki</a> for more information.
+See <a href="https://github.com/fmfi-svt-deadlock/server/wiki">https://github.com/fmfi-svt-deadlock/server/wiki</a> for more 
+information.
 <br />
 <br />
-<a href="https://github.com/fmfi-svt-gate/reader-hw">https://github.com/fmfi-svt-gate/reader-hw</a>
+<a href="https://github.com/fmfi-svt-deadlock/reader-hw">https://github.com/fmfi-svt-deadlock/reader-hw</a>
