@@ -1,2 +1,3 @@
 # reader-hw
-Schematic and PCB layout for the Reader
+Schematic, PCB layout and box for the Reader
+
